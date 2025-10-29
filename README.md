@@ -23,8 +23,7 @@ Com interface simples em linha de comando, permite ajustar dimensões fixas, con
 - Biblioteca **Pillow**
 
 Instale executando:
-```bash
-pip install pillow```
+```bash pip install pillow```
 
 ## 🧭 Como usar
 
