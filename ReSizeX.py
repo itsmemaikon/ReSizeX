@@ -187,7 +187,7 @@ if __name__ == "__main__":
     else:
         current_folder = os.path.dirname(os.path.abspath(__file__))
 
-    print("=== Resize & Convert (processa arquivos por extensão original) ===")
+    print("=== ReSizeX | Utilitário leve em Python para redimensionamento e conversão de imagens ===")
     settings = ask_user_settings()
     print(f"Processando: {current_folder}")
     print(f"Entradas: {', '.join(settings['orig_exts'])} → Saída: .{settings['out_ext']} | Max: {settings['max_width']}x{settings['max_height']} | Qualidade: {settings['quality']}")
